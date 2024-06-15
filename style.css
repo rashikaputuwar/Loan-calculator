@@ -1,6 +1,6 @@
-/* body{
+body{
     font-family: Arial, sans-serif;
-    background-color: greenyellow;
+    background-color: grey;
 }
 
 .container{
@@ -17,7 +17,7 @@ h2{
     background-color: #fff;
     border-radius: 8px;
     border: 10px solid #ccc;
-    padding: 10p 40px;
+    padding: 10px 40px;
 }
 
 .input-group{
@@ -32,7 +32,7 @@ h2{
 .input-group input{
     width: 90%;
     padding: 8px;
-    margin-bottom: 1px solid #ccc;
+    margin: 1px solid #ccc;
     border-radius: 4px;
 }  
 
@@ -42,7 +42,8 @@ button{
     padding:10px 20px;
     border: none;
     border-radius: 4px;
-    color: #fff;background-color: black;
+    color: #fff;
+    background-color: black;
     cursor: pointer;
 }
 
@@ -50,63 +51,7 @@ button{
     margin-top: 20px;
     padding: 10px;  
     background-color: #f9f9f9;
-    border: 1 solid #e93232;
-    border-radius: 4px;
-} */
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: gray;
-}
-
-.container {
-    max-width: 500px;
-    margin: 100px auto;
-}
-
-h2 {
-    text-align: center;
-    text-decoration: underline;
-}
-
-.calculator {
-    background-color: #fff;
-    border-radius: 8px;
-    border: 10px solid #ccc;
-    padding: 10px 40px; /* Corrected typo: changed 10p to 10px */
-}
-
-.input-group {
-    margin-bottom: 15px;
-}
-
-.input-group label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.input-group input {
-    width: 90%;
-    padding: 8px;
-    border: 1px solid #ccc; /* Fixed margin-bottom to border */
+    border: 1px solid black;
     border-radius: 4px;
 }
 
-button {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    background-color: green;
-    cursor: pointer;
-}
-
-#result {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid black; /* Fixed border typo: 1 solid to 1px solid */
-    border-radius: 4px;
-}
